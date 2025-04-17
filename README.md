@@ -67,7 +67,7 @@ An example output:
   "languages_spoken": ["English", "French"]
 }
 ```
-NuExtract can also support template with nested attributes. E.g.
+NuExtract can also support templates with nested attributes. E.g.
 ```json
 {
   "employees": [
