@@ -22,7 +22,7 @@ We provide several versions of different sizes, all based on pre-trained models 
 | 3B | NuExtract-2.0-3B | [Qwen2.5-VL-3B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-3B-Instruct) | Qwen Research License | 🤗 [NuExtract-2.0-3B](https://huggingface.co/numind/NuExtract-2.0-3B) |
 | 8B | NuExtract-2.0-8B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | MIT | 🤗 [NuExtract-2.0-8B](https://huggingface.co/numind/NuExtract-2.0-8B) |
 
-❗️Note: `NuExtract-2.0-2B` is based on Qwen2-VL rather than Qwen2.5-VL because the smallest Qwen2.5-VL model (3B) has a more restrictive licence, non-commercial license. We therefore include `NuExtract-2.0-2B` as a small model option that can be used commercially.
+❗️Note: `NuExtract-2.0-2B` is based on Qwen2-VL rather than Qwen2.5-VL because the smallest Qwen2.5-VL model (3B) has a more restrictive, non-commercial license. We therefore include `NuExtract-2.0-2B` as a small model option that can still be used commercially.
 
 
 ## Overview
