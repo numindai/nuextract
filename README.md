@@ -18,8 +18,8 @@ NuExtract 2.0 is a family of models trained specifically for structured informat
 We provide several versions of different sizes, all based on pre-trained models from the QwenVL family.
 | Model Size | Model Name | Base Model | Huggingface Link |
 |------------|------------|------------|------------------|
-| 2B | NuExtract-2.0-2B | [Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) | [NuExtract-2.0-2B](https://huggingface.co/numind/NuExtract-2.0-2B) |
-| 8B | NuExtract-2.0-8B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | [NuExtract-2.0-8B](https://huggingface.co/numind/NuExtract-2.0-8B) |
+| 2B | NuExtract-2.0-2B | [Qwen2-VL-2B-Instruct](https://huggingface.co/Qwen/Qwen2-VL-2B-Instruct) | 🤗 [NuExtract-2.0-2B](https://huggingface.co/numind/NuExtract-2.0-2B) |
+| 8B | NuExtract-2.0-8B | [Qwen2.5-VL-7B-Instruct](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct) | 🤗 [NuExtract-2.0-8B](https://huggingface.co/numind/NuExtract-2.0-8B) |
 
 ❗️Note: `NuExtract-2.0-2B` is based on Qwen2-VL rather than Qwen2.5-VL because the smallest Qwen2.5-VL model (3B) has a more restrictive licence.
 
