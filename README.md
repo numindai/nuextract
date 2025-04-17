@@ -6,7 +6,7 @@
 <p>
 
 <p align="center">
-        🧑‍💻 <a href="https://numind.ai"><b>Website</b></a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/numind">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://numind.ai/blog">Blog</a>&nbsp&nbsp | &nbsp&nbsp📚 <a href="https://github.com/numindai/nuextract/tree/main/cookbooks">Cookbooks</a>
+        🧑‍💻 <a href="https://numind.ai">Website</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/numind">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://numind.ai/blog">Blog</a>&nbsp&nbsp | &nbsp&nbsp📚 <a href="https://github.com/numindai/nuextract/tree/main/cookbooks">Cookbooks</a>
 <br>
 🖥️ <a href="https://huggingface.co/spaces/numind/">Demo</a>&nbsp&nbsp | &nbsp&nbsp🗣️ <a href="https://discord.com/3tsEtJNCDe">Discord</a>
 </p>
