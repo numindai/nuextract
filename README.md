@@ -29,7 +29,7 @@ We provide several versions of different sizes, all based on pre-trained models 
 
 To use the model, provide an input text/image and a JSON template describing the information you need to extract. The template should be a JSON object, specifying field names and their expected type.
 
-Support types include:
+Supported types include:
 * `verbatim-string` - instructs the model to extract text that is present verbatim in the input.
 * `string` - a generic string field that can incorporate paraphrasing/abstraction.
 * `integer` - a whole number.
@@ -65,5 +65,26 @@ An example output:
   "birth_date": "2005-03-01",
   "nationality": "England",
   "languages_spoken": ["English", "French"]
+}
+```
+NuExtract can also support template with nested attributes. E.g.
+```json
+{
+  "employees": [
+    {
+      "name": "verbatim-string",
+      "age": "integer",
+      "occupation": {
+        "industry": "string",
+        "position_title": "verbatim-string"
+      }
+    }
+  ],
+  "companies": [
+    {
+      "name": "verbatim-string",
+      "valuation": "number"
+    }
+  ]
 }
 ```
