@@ -89,5 +89,8 @@ NuExtract can also support templates with nested attributes. E.g.
 }
 ```
 
+## Usage
+You can find an inference tutorial notebook in the [cookbooks](https://github.com/numindai/nuextract/tree/main/cookbooks) folder. Alternatively, see the individual model cards on Hugging Face for detailed instructions.
+
 ## Fine-Tuning
 You can find a fine-tuning tutorial notebook in the [cookbooks](https://github.com/numindai/nuextract/tree/main/cookbooks) folder.
