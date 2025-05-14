@@ -94,3 +94,59 @@ You can find an inference tutorial notebook in the [cookbooks](https://github.co
 
 ## Fine-Tuning
 You can find a fine-tuning tutorial notebook in the [cookbooks](https://github.com/numindai/nuextract/tree/main/cookbooks) folder.
+
+## vLLM Deployment
+```bash
+vllm serve numind/NuExtract-2.0-8B --trust_remote_code --limit-mm-per-prompt image=6 --chat-template-content-format openai
+```
+```python
+import base64    
+import json
+
+from openai import OpenAI
+
+openai_api_key = "EMPTY"
+openai_api_base = "http://localhost:8000/v1"
+
+client = OpenAI(
+    api_key=openai_api_key,
+    base_url=openai_api_base,
+)
+
+def encode_image(image_path):
+    """
+    Encode the image file to base64 string
+    """
+    with open(image_path, "rb") as image_file:
+        return base64.b64encode(image_file.read()).decode('utf-8')
+
+base64_image = encode_image("0.jpg")
+base64_image2 = encode_image("1.jpg")
+
+chat_response = client.chat.completions.create(
+    model="numind/NuExtract-2.0-8B",
+    temperature=0,
+    messages=[
+        {
+            "role": "user", 
+            "content": [
+                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}, # first ICL example image
+                {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image2}"}}, # real input image
+                {"type": "text", "text": "<image>"},
+            ],
+        },
+    ],
+    extra_body={
+        "chat_template_kwargs": {
+            "template": json.dumps(json.loads("""{\"store\": \"verbatim-string\"}"""), indent=4),
+            "examples": [
+                {
+                    "input": "<image>",
+                    "output": """{\"store\": \"Walmart\"}"""
+                }
+            ]
+        },
+    }
+)
+print("Chat response:", chat_response)
+```
