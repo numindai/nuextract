@@ -96,13 +96,15 @@ You can find an inference tutorial notebook in the [cookbooks](https://github.co
 You can find a fine-tuning tutorial notebook in the [cookbooks](https://github.com/numindai/nuextract/tree/main/cookbooks) folder.
 
 ## vLLM Deployment
+Run the command below to serve an OpenAI-compatible API:
 ```bash
 vllm serve numind/NuExtract-2.0-8B --trust_remote_code --limit-mm-per-prompt image=6 --chat-template-content-format openai
 ```
-```python
-import base64    
-import json
+If you encounter memory issues, set `--max-model-len` accordingly.
 
+Send requests to the model as follows:
+```python
+import json
 from openai import OpenAI
 
 openai_api_key = "EMPTY"
@@ -112,6 +114,27 @@ client = OpenAI(
     api_key=openai_api_key,
     base_url=openai_api_base,
 )
+
+chat_response = client.chat.completions.create(
+    model="numind/NuExtract-2.0-8B",
+    temperature=0,
+    messages=[
+        {
+            "role": "user", 
+            "content": [{"type": "text", "text": "Yesterday I went shopping at Bunnings"}],
+        },
+    ],
+    extra_body={
+        "chat_template_kwargs": {
+            "template": json.dumps(json.loads("""{\"store\": \"verbatim-string\"}"""), indent=4)
+        },
+    }
+)
+print("Chat response:", chat_response)
+```
+For image inputs, structure requests as shown below. Make sure to order the images in `"content"` as they appear in the prompt (i.e. any in-context examples before the main input).
+```python
+import base64
 
 def encode_image(image_path):
     """
@@ -132,7 +155,6 @@ chat_response = client.chat.completions.create(
             "content": [
                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image}"}}, # first ICL example image
                 {"type": "image_url", "image_url": {"url": f"data:image/jpeg;base64,{base64_image2}"}}, # real input image
-                {"type": "text", "text": "<image>"},
             ],
         },
     ],
