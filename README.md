@@ -88,3 +88,6 @@ NuExtract can also support templates with nested attributes. E.g.
   ]
 }
 ```
+
+## Fine-Tuning
+You can find a fine-tuning tutorial notebook in the [cookbooks](https://github.com/numindai/nuextract/tree/main/cookbooks) folder.
