@@ -2,8 +2,10 @@
 
 
 <p align="center">
-    <img src="https://cdn.prod.website-files.com/638364a4e52e440048a9529c/64188f405afcf42d0b85b926_logo_numind_final.png" width="200"/>
-<p>
+    <a href="https://nuextract.ai/">
+        <img src="logo_nuextract.svg" width="200"/>
+    </a>
+</p>
 
 <p align="center">
         🖥️ <a href="https://nuextract.ai/">API / Platform</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/numind">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📚 <a href="https://github.com/numindai/nuextract/tree/main/cookbooks">Cookbooks</a>
