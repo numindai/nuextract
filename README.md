@@ -10,7 +10,7 @@
 <p align="center">
         🖥️ <a href="https://nuextract.ai/">API / Platform</a>&nbsp&nbsp | &nbsp&nbsp🤗 <a href="https://huggingface.co/numind">Hugging Face</a>&nbsp&nbsp | &nbsp&nbsp📚 <a href="https://github.com/numindai/nuextract/tree/main/cookbooks">Cookbooks</a>
 <br>
-🧑‍💻 <a href="https://numind.ai">Website</a>&nbsp&nbsp | &nbsp&nbsp📑 <a href="https://numind.ai/blog">Blog</a>&nbsp&nbsp | &nbsp&nbsp🗣️ <a href="https://discord.gg/3tsEtJNCDe">Discord</a>
+📑 <a href="https://numind.ai/blog">Blog</a>&nbsp&nbsp | &nbsp&nbsp🗣️ <a href="https://discord.gg/3tsEtJNCDe">Discord</a>
 </p>
 
 <hr>
