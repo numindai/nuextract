@@ -104,6 +104,8 @@ vllm serve numind/NuExtract-2.0-8B --trust_remote_code --limit-mm-per-prompt ima
 ```
 If you encounter memory issues, set `--max-model-len` accordingly.
 
+You can also use one of our [docker images](dockerfiles).
+
 Send requests to the model as follows:
 ```python
 import json
