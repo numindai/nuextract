@@ -1,0 +1,347 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1514" height="894" viewBox="39 24 1514 894">
+
+<defs>
+  <filter id="barShadow" x="-35%" y="-20%" width="170%" height="140%"><feOffset in="SourceAlpha" dx="0" dy="10" result="off"/><feGaussianBlur in="off" stdDeviation="10" result="blur"/><feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.06 0 0 0 0 0.09 0 0 0 0 0.16 0 0 0 0.16 0" result="shadow"/><feBlend in="SourceGraphic" in2="shadow" mode="normal"/></filter>
+  <filter id="logoShadow" x="-35%" y="-35%" width="170%" height="170%"><feOffset in="SourceAlpha" dx="0" dy="8" result="off"/><feGaussianBlur in="off" stdDeviation="9" result="blur"/><feColorMatrix in="blur" type="matrix" values="0 0 0 0 0.08 0 0 0 0 0.11 0 0 0 0 0.18 0 0 0 0.18 0" result="shadow"/><feBlend in="SourceGraphic" in2="shadow" mode="normal"/></filter>
+  <linearGradient id="barFadeGrad" x1="0" y1="72" x2="0" y2="820" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="0.96" stop-color="#FFFFFF" stop-opacity="1"/><stop offset="1" stop-color="#FFFFFF" stop-opacity="0"/></linearGradient>
+  <mask id="barFadeMask" maskUnits="userSpaceOnUse"><rect x="150" y="72" width="1395" height="748" fill="url(#barFadeGrad)"/></mask>
+  <linearGradient id="barGrad0" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FF7A3B"/><stop offset="0.55" stop-color="#FF6332"/><stop offset="1" stop-color="#F84D1F"/></linearGradient>
+  <linearGradient id="barGrad1" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#D7C3E4"/><stop offset="0.55" stop-color="#C2A5D2"/><stop offset="1" stop-color="#AE8FCA"/></linearGradient>
+  <linearGradient id="barGrad2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#BDD4F2"/><stop offset="0.55" stop-color="#A9C4E8"/><stop offset="1" stop-color="#8EADD8"/></linearGradient>
+  <linearGradient id="barGrad3" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8CB0F0"/><stop offset="0.55" stop-color="#7EA1E7"/><stop offset="1" stop-color="#6F92DC"/></linearGradient>
+  <linearGradient id="barGrad5" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#B8E3EA"/><stop offset="0.55" stop-color="#94D2DC"/><stop offset="1" stop-color="#70BBC8"/></linearGradient>
+  <linearGradient id="barGrad6" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#FFE2A3"/><stop offset="0.55" stop-color="#F8C577"/><stop offset="1" stop-color="#E9A45B"/></linearGradient>
+  <linearGradient id="barGloss0" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+  <linearGradient id="barGloss1" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+  <linearGradient id="barGloss2" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+  <linearGradient id="barGloss3" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+  <linearGradient id="barGloss5" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+  <linearGradient id="barGloss6" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF" stop-opacity="0.28"/><stop offset="0.48" stop-color="#FFFFFF" stop-opacity="0.02"/><stop offset="1" stop-color="#000000" stop-opacity="0.06"/></linearGradient>
+</defs>
+
+<text x="790.0" y="58" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="44" font-weight="700" fill="#6B7280">Structured Extraction</text>
+<text x="128" y="829.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">20</text>
+<text x="128" y="691.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">30</text>
+<line x1="150" y1="682.00" x2="1545" y2="682.00" stroke="#D7DEE8" stroke-width="0.9" opacity="0.78"/>
+<text x="128" y="553.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">40</text>
+<line x1="150" y1="544.00" x2="1545" y2="544.00" stroke="#D7DEE8" stroke-width="0.9" opacity="0.78"/>
+<text x="128" y="415.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">50</text>
+<line x1="150" y1="406.00" x2="1545" y2="406.00" stroke="#D7DEE8" stroke-width="0.9" opacity="0.78"/>
+<text x="128" y="277.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">60</text>
+<line x1="150" y1="268.00" x2="1545" y2="268.00" stroke="#D7DEE8" stroke-width="0.9" opacity="0.78"/>
+<text x="128" y="139.00" text-anchor="end" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="30" fill="#6B7280">70</text>
+<line x1="150" y1="130.00" x2="1545" y2="130.00" stroke="#D7DEE8" stroke-width="0.9" opacity="0.78"/>
+<text x="58" y="475.0" text-anchor="middle" transform="rotate(-90 58 475.0)" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="34" font-weight="400" fill="#7A8599">average score</text>
+<line x1="150" y1="820" x2="1545" y2="820" stroke="#C9D2DE" stroke-width="1.6" opacity="0.96"/>
+<line x1="150" y1="130" x2="150" y2="820" stroke="#C9D2DE" stroke-width="1.6" opacity="0.96"/>
+<g id="modeLegend" transform="translate(1250,86)">
+<rect x="0" y="0" width="62" height="32" rx="9" fill="#FF9A7A"/>
+<text x="31" y="22" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">2036</text>
+<text x="76" y="22" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#6B7280">number of thinking tokens</text>
+<rect x="0" y="50" width="62" height="32" rx="9" fill="#FF9A7A"/>
+<line x1="12" y1="66" x2="50" y2="66" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" opacity="0.95"/>
+<text x="76" y="72" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#6B7280">non-thinking score</text>
+<rect x="0" y="100" width="62" height="32" rx="9" fill="#FF9A7A"/>
+<line x1="12" y1="116" x2="50" y2="116" stroke="#FFFFFF" stroke-width="2.2" stroke-linecap="round" stroke-dasharray="7 7" opacity="0.95"/>
+<text x="76" y="122" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#6B7280">thinking score</text>
+</g>
+<g id="bar_0_nuextract">
+<path d="M 214.25 213.24 Q 214.25 196.24 231.25 196.24 H 301.25 Q 318.25 196.24 318.25 213.24 V 820.00 H 214.25 Z" fill="url(#barGrad0)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 214.25 213.24 Q 214.25 196.24 231.25 196.24 H 301.25 Q 318.25 196.24 318.25 213.24 V 820.00 H 214.25 Z" fill="url(#barGloss0)" opacity="0.78" mask="url(#barFadeMask)"/>
+<line x1="240.25" y1="241.78" x2="292.25" y2="241.78" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.96"/>
+<text x="266.25" y="218.24" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">2036</text>
+<rect x="233.25" y="76.24" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="242.25" y="85.24" width="48.00" height="48.00" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg" viewBox="14 14 222 222">
+  <defs>
+    <style>
+      .cls-1 { fill: #e4843a; }
+      .cls-2 { fill: #f0cf35; }
+      .cls-3 { fill: #a37fb8; }
+      .cls-5 { fill: #99b535; }
+      .cls-6 { fill: #87b7e0; }
+    </style>
+  </defs>
+  <g>
+    <path class="cls-1" d="M219.22,123.33h0c1.1-3.01,2.14-6.32,3.01-9.84h0c12.41,12.03,17.44,22.5,10.3,35.2-8.18,16.49-46.08,43.86-64.13,46.75,2.78-6.99,39.97-81.89-12.42-126.99,28.42,10.17,49.41,30.51,52.72,33.27,.02,25.37-7.7,45.26-11.52,56.25,22.21-8.29,31.84-22.72,22.04-34.63h0Z"/>
+    <path class="cls-3" d="M155.19,27.7h0c-2.52-1.98-5.35-3.99-8.43-5.91h0c15.28-8.09,26.79-9.64,36.66,1.08,13.16,12.88,27.48,57.38,24.65,75.44-5.79-4.8-65.54-63.32-124.62-27.43,18.45-23.89,44.28-37.56,47.93-39.86,24.13,7.82,40.66,21.3,49.93,28.34-1.02-23.69-11.77-37.31-26.12-31.66h0Z"/>
+    <path class="cls-6" d="M45.01,58.88h0c-2.66,1.78-5.45,3.86-8.22,6.19h0c-2.97-17.03-.89-28.45,12.35-34.53,16.31-8.53,63.06-8.4,79.36-.13-6.36,4.02-80.47,42.76-64.6,110.04-17.01-24.93-22.04-53.72-23.1-57.9,14.9-20.53,32.83-32.09,42.38-38.73-22.85-6.35-39.12-.34-38.18,15.06h0Z"/>
+    <path class="cls-5" d="M40.29,174h0c.87,3.08,1.98,6.37,3.34,9.73h0c-17.11-2.44-27.34-7.95-29.02-22.42-3.07-18.15,11.5-62.57,24.4-75.52,1.86,7.29,15.8,89.75,84.69,95.44-28.97,8.48-57.9,4.36-62.2,4.07-14.93-20.51-20.38-41.14-23.74-52.28-13.1,19.77-12.41,37.1,2.52,40.97h.01Z"/>
+    <path class="cls-2" d="M148,213.65h0c3.2,.12,6.68,.08,10.29-.17h0c-7.61,15.52-16.01,23.54-30.29,20.67-18.21-2.69-55.96-30.27-64.28-46.54,7.51,.48,90.24,12.7,116.94-51.05-.89,30.17-13.75,56.42-15.35,60.42-24.12,7.86-45.42,6.67-57.05,6.42,14.75,18.56,31.45,23.26,39.74,10.26h0Z"/>
+  </g>
+</svg>
+<text x="266.25" y="178.24" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="32" font-weight="850" fill="#6B7280">65.2</text>
+</g>
+<g id="bar_1_gemma">
+<path d="M 446.75 370.56 Q 446.75 353.56 463.75 353.56 H 533.75 Q 550.75 353.56 550.75 370.56 V 820.00 H 446.75 Z" fill="url(#barGrad3)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 446.75 370.56 Q 446.75 353.56 463.75 353.56 H 533.75 Q 550.75 353.56 550.75 370.56 V 820.00 H 446.75 Z" fill="url(#barGloss3)" opacity="0.78" mask="url(#barFadeMask)"/>
+<line x1="472.75" y1="516.40" x2="524.75" y2="516.40" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.96"/>
+<text x="498.75" y="375.56" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">3005</text>
+<rect x="465.75" y="233.56" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="476.75" y="244.56" width="44.00" height="44.00" preserveAspectRatio="xMidYMid meet" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><title>Gemma</title><defs><linearGradient id="logo1_lobe-icons-gemma-_R_0_" x1="24.419%" x2="75.194%" y1="75.581%" y2="25.194%"><stop offset="0%" stop-color="#446EFF"></stop><stop offset="36.661%" stop-color="#2E96FF"></stop><stop offset="83.221%" stop-color="#B1C5FF"></stop></linearGradient></defs><path d="M12.34 5.953a8.233 8.233 0 01-.247-1.125V3.72a8.25 8.25 0 015.562 2.232H12.34zm-.69 0c.113-.373.199-.755.257-1.145V3.72a8.25 8.25 0 00-5.562 2.232h5.304zm-5.433.187h5.373a7.98 7.98 0 01-.267.696 8.41 8.41 0 01-1.76 2.65L6.216 6.14zm-.264-.187H2.977v.187h2.915a8.436 8.436 0 00-2.357 5.767H0v.186h3.535a8.436 8.436 0 002.357 5.767H2.977v.186h2.976v2.977h.187v-2.915a8.436 8.436 0 005.767 2.357V24h.186v-3.535a8.436 8.436 0 005.767-2.357v2.915h.186v-2.977h2.977v-.186h-2.915a8.436 8.436 0 002.357-5.767H24v-.186h-3.535a8.436 8.436 0 00-2.357-5.767h2.915v-.187h-2.977V2.977h-.186v2.915a8.436 8.436 0 00-5.767-2.357V0h-.186v3.535A8.436 8.436 0 006.14 5.892V2.977h-.187v2.976zm6.14 14.326a8.25 8.25 0 005.562-2.233H12.34c-.108.367-.19.743-.247 1.126v1.107zm-.186-1.087a8.015 8.015 0 00-.258-1.146H6.345a8.25 8.25 0 005.562 2.233v-1.087zm-8.186-7.285h1.107a8.23 8.23 0 001.125-.247V6.345a8.25 8.25 0 00-2.232 5.562zm1.087.186H3.72a8.25 8.25 0 002.232 5.562v-5.304a8.012 8.012 0 00-1.145-.258zm15.47-.186a8.25 8.25 0 00-2.232-5.562v5.315c.367.108.743.19 1.126.247h1.107zm-1.086.186c-.39.058-.772.144-1.146.258v5.304a8.25 8.25 0 002.233-5.562h-1.087zm-1.332 5.69V12.41a7.97 7.97 0 00-.696.267 8.409 8.409 0 00-2.65 1.76l3.346 3.346zm0-6.18v-5.45l-.012-.013h-5.451c.076.235.162.468.26.696a8.698 8.698 0 001.819 2.688 8.698 8.698 0 002.688 1.82c.228.097.46.183.696.259zM6.14 17.848V12.41c.235.078.468.167.696.267a8.403 8.403 0 012.688 1.799 8.404 8.404 0 011.799 2.688c.1.228.19.46.267.696H6.152l-.012-.012zm0-6.245V6.326l3.29 3.29a8.716 8.716 0 01-2.594 1.728 8.14 8.14 0 01-.696.259zm6.257 6.257h5.277l-3.29-3.29a8.716 8.716 0 00-1.728 2.594 8.135 8.135 0 00-.259.696zm-2.347-7.81a9.435 9.435 0 01-2.88 1.96 9.14 9.14 0 012.88 1.94 9.14 9.14 0 011.94 2.88 9.435 9.435 0 011.96-2.88 9.14 9.14 0 012.88-1.94 9.435 9.435 0 01-2.88-1.96 9.434 9.434 0 01-1.96-2.88 9.14 9.14 0 01-1.94 2.88z" fill="url(#logo1_lobe-icons-gemma-_R_0_)" fill-rule="evenodd"></path></svg>
+<text x="498.75" y="335.56" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="640" fill="#7A8599">53.8</text>
+</g>
+<g id="bar_2_qwen">
+<path d="M 679.25 413.34 Q 679.25 396.34 696.25 396.34 H 766.25 Q 783.25 396.34 783.25 413.34 V 820.00 H 679.25 Z" fill="url(#barGrad1)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 679.25 413.34 Q 679.25 396.34 696.25 396.34 H 766.25 Q 783.25 396.34 783.25 413.34 V 820.00 H 679.25 Z" fill="url(#barGloss1)" opacity="0.78" mask="url(#barFadeMask)"/>
+<line x1="705.25" y1="520.54" x2="757.25" y2="520.54" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.96" stroke-dasharray="8 7"/>
+<text x="731.25" y="538.54" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">27177</text>
+<rect x="698.25" y="276.34" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="707.25" y="285.34" width="48.00" height="48.00" preserveAspectRatio="xMidYMid meet" viewBox="117 208 178 180" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="logo2_purpleGradient" x1="252" y1="210" x2="196" y2="388" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#918FF4"/>
+      <stop offset="0.22" stop-color="#7A70EF"/>
+      <stop offset="0.55" stop-color="#633FE8"/>
+      <stop offset="1" stop-color="#6331E5"/>
+    </linearGradient>
+
+    <linearGradient id="logo2_whiteGradient" x1="143" y1="236" x2="248" y2="372" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#FFFFFF"/>
+      <stop offset="0.55" stop-color="#FFFFFF"/>
+      <stop offset="0.78" stop-color="#F7F6FF"/>
+      <stop offset="1" stop-color="#E6E3FF"/>
+    </linearGradient>
+  </defs>
+
+  
+  <path
+    fill="url(#logo2_whiteGradient)"
+    fill-rule="evenodd"
+    transform="matrix(3.7795276,0,0,3.7795276,23.987112,-262.90001)"
+    d="m 47.46875,125.42578 -2.179688,0.0527 a 0.62169379,0.62169379 0 0 1 -0.01563,0 h -3.412109 c -0.203341,0 -0.24086,0.0227 -0.371094,0.23437 l -6.023437,10.51172 a 0.62169379,0.62169379 0 0 1 -0.02148,0.0371 c -0.140967,0.21149 -0.440845,0.4082 -0.755859,0.4082 h -5.582031 c -0.431055,0 -0.492773,0.0342 -0.707031,0.4043 h 0.002 c -1.002954,1.74197 -1.980401,3.48775 -2.988282,5.23828 a 0.62169379,0.62169379 0 0 1 -0.002,0 c -0.271287,0.46858 -0.359081,0.74083 -0.371093,0.89844 -0.01189,0.15596 0.02259,0.27799 0.169921,0.5625 0.0015,0.003 3.8e-4,0.003 0.002,0.006 l 1.683593,2.96875 a 0.62169379,0.62169379 0 0 1 0,0.002 c 1.318408,2.34676 2.665257,4.67235 4.013672,7.02539 0.191516,0.32078 0.19224,0.74209 0,1.0625 l -2.576172,4.52344 c -4.59e-4,8.6e-4 4.57e-4,0.001 0,0.002 -0.134737,0.2531 -0.135653,0.32182 0,0.57617 l 3.28125,5.67969 c 0.387935,0.10844 0.802127,0.17183 1.273438,0.13086 a 0.62169379,0.62169379 0 0 1 0.05469,-0.002 h 11.007813 c 0.112808,0 0.243911,0.0149 0.394531,0.0918 0.15062,0.0769 0.315367,0.24299 0.380859,0.43946 l -0.05078,-0.11328 2.876953,4.99023 c 0.156413,0.26069 0.193465,0.28125 0.472657,0.28125 h 6.482421 c 0.326233,0 0.524511,-0.0391 0.652344,-0.0996 0.127173,-0.0602 0.228889,-0.14331 0.369141,-0.38281 l 0.002,-0.002 c 1.956193,-3.38369 3.886014,-6.77039 5.816406,-10.18164 a 0.62169379,0.62169379 0 0 1 0.101563,-0.13281 c 0.05492,-0.0549 0.271298,-0.28711 0.625,-0.28711 1.660218,-0.0264 3.328246,-0.0537 5.001953,-0.0273 0.5601,0 0.656952,-0.0416 0.919922,-0.48633 v -0.002 c 0.97295,-1.65667 1.919244,-3.31493 2.867187,-5 0.147063,-0.28219 0.217636,-0.47188 0.230469,-0.59766 0.01287,-0.12614 0.0019,-0.22909 -0.136719,-0.4668 a 0.62169379,0.62169379 0 0 1 -0.002,-0.004 l -5.714844,-9.97461 0.05078,0.0762 c -0.258724,-0.32772 -0.400448,-0.76322 -0.314454,-1.11719 0.0857,-0.35275 0.242904,-0.51359 0.337891,-0.68164 l 0.002,-0.002 0.792969,-1.42774 c 0.535836,-0.9645 1.09479,-1.89626 1.650391,-2.82226 a 0.62169379,0.62169379 0 0 1 0.0059,-0.008 c 0.204303,-0.32916 0.217243,-0.44257 0.208984,-0.53711 -0.0082,-0.0939 -0.0844,-0.28253 -0.27539,-0.62696 l -0.002,-0.002 -3.121094,-5.52734 a 0.62169379,0.62169379 0 0 1 -0.002,-0.004 C 64.36956,130.7449 64.267536,130.7168 64.164062,130.7168 h -11.93164 c -0.297761,0 -0.710264,-0.2085 -0.876953,-0.48633 a 0.62169379,0.62169379 0 0 1 -0.01367,-0.0234 c -0.794525,-1.46091 -1.615153,-2.89926 -2.439453,-4.3418 a 0.62169379,0.62169379 0 0 1 -0.04492,-0.0156 c -0.09475,-0.1692 -0.219248,-0.25424 -0.460938,-0.32617 -0.241186,-0.0718 -0.578176,-0.0976 -0.925781,-0.0977 z"
+  />
+
+  
+  <path
+    fill="url(#logo2_purpleGradient)"
+    fill-rule="evenodd"
+    d="m 233.8,279.6 c 0.4,0 0.5,0.2 0.3,0.5 l -6.8,11.9 -21.2,37.3 c 0,0.2 -0.2,0.2 -0.4,0.2 -0.2,0 -0.3,0 -0.4,-0.2 l -28.1,-49 c -0.2,-0.3 0,-0.4 0.2,-0.4 h 1.8 c 0,0 54.7,-0.2 54.7,-0.2 v 0 z m -51.1,-65.2 c -0.2,0 -0.3,0 -0.4,0.2 L 159,255.4 c -0.2,0.4 -0.6,0.6 -1.1,0.6 h -23.3 c -0.5,0 -0.6,0.2 -0.3,0.6 l 47.2,82.6 c 0.2,0.3 0.1,0.5 -0.3,0.5 h -22.7 c -0.7,0 -1.3,0.4 -1.6,1.1 l -10.7,18.8 c -0.4,0.6 -0.2,1 0.6,1 h 46.5 c 0.4,0 0.7,0.2 0.8,0.6 l 11.4,20 c 0.4,0.7 0.7,0.7 1.1,0 l 40.7,-71.2 6.4,-11.2 c 0,-0.2 0.2,-0.2 0.4,-0.2 0.2,0 0.3,0 0.4,0.2 l 11.6,20.6 c 0.2,0.3 0.5,0.5 0.9,0.5 l 22.5,-0.2 c 0.1,0 0.2,0 0.3,-0.2 0,-0.1 0,-0.2 0,-0.3 l -23.6,-41.4 c -0.2,-0.3 -0.2,-0.6 0,-0.9 l 2.4,-4.1 9.1,-16.1 c 0.2,-0.3 0,-0.5 -0.3,-0.5 h -94.3 c -0.5,0 -0.6,-0.2 -0.3,-0.6 l 11.7,-20.4 c 0.2,-0.3 0.2,-0.6 0,-0.9 l -11.1,-19.5 c 0,-0.2 -0.2,-0.3 -0.4,-0.3 v 0 z m 27.9,-3.2 c 3.2,5.6 6.4,11.2 9.5,16.9 0.3,0.5 0.7,0.7 1.3,0.7 h 45.1 c 1.4,0 2.6,0.9 3.6,2.7 l 11.8,20.9 c 1.5,2.7 2,3.9 0.2,6.8 -2.1,3.5 -4.2,7 -6.2,10.6 l -3,5.4 c -0.9,1.6 -1.8,2.3 -0.3,4.2 l 21.6,37.7 c 1.4,2.4 0.9,4 -0.3,6.3 -3.6,6.4 -7.2,12.7 -10.9,19 -1.3,2.2 -2.9,3 -5.5,3 -6.3,-0.1 -12.6,0 -18.9,0.1 -0.3,0 -0.5,0.2 -0.7,0.4 -7.3,12.9 -14.6,25.7 -22,38.5 -1.4,2.4 -3.1,3 -5.9,3 -8.1,0 -16.3,0 -24.5,0 -1.7,0 -2.9,-0.7 -3.8,-2.2 l -10.9,-18.9 c -0.1,-0.3 -0.4,-0.4 -0.7,-0.4 h -41.6 c -2.3,0.2 -4.5,0 -6.5,-0.7 l -13,-22.5 c -0.8,-1.5 -0.8,-2.9 0,-4.4 l 9.8,-17.2 c 0.3,-0.5 0.3,-1.1 0,-1.6 -5.1,-8.9 -10.2,-17.7 -15.2,-26.6 l -6.4,-11.3 c -1.3,-2.5 -1.4,-4 0.8,-7.8 3.8,-6.6 7.5,-13.2 11.3,-19.8 1.1,-1.9 2.5,-2.7 4.7,-2.7 7,0 14,0 21.1,0 0.4,0 0.7,-0.2 0.9,-0.5 L 178.8,211 c 0.8,-1.3 1.9,-2 3.4,-2 4.3,0 8.6,0 12.9,0 l 8.3,-0.2 c 2.8,0 5.9,0.3 7.3,2.8 z"
+  />
+</svg>
+<text x="731.25" y="378.34" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="640" fill="#7A8599">50.7</text>
+</g>
+<g id="bar_3_glm">
+<path d="M 911.75 445.08 Q 911.75 428.08 928.75 428.08 H 998.75 Q 1015.75 428.08 1015.75 445.08 V 820.00 H 911.75 Z" fill="url(#barGrad2)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 911.75 445.08 Q 911.75 428.08 928.75 428.08 H 998.75 Q 1015.75 428.08 1015.75 445.08 V 820.00 H 911.75 Z" fill="url(#barGloss2)" opacity="0.78" mask="url(#barFadeMask)"/>
+<line x1="937.75" y1="495.70" x2="989.75" y2="495.70" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.96" stroke-dasharray="8 7"/>
+<text x="963.75" y="513.70" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">2989</text>
+<rect x="930.75" y="308.08" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="940.75" y="320.08" width="46.00" height="42.00" preserveAspectRatio="xMidYMid meet" viewBox="4 6.69995 40 36.274" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <g clip-path="url(#logo3_clip0_13440_1868)">
+    <path d="M25.6866 39.9768C25.3924 40.035 25.0963 40.0866 24.7964 40.1315C21.7619 40.5833 19.0723 40.292 16.7886 39.4524L18.0054 42.4563C18.1334 42.7667 18.4238 42.974 18.7609 42.974H26.0228C26.4192 42.974 26.6923 42.5394 26.5663 42.1879L25.6875 39.9768H25.6866Z" fill="url(#logo3_paint0_linear_13440_1868)"/>
+    <path d="M23.5221 34.5325L19.6185 24.71C19.2565 24.9583 18.8592 25.2811 18.5105 25.6498C17.2622 26.9698 16.3663 30.0377 18.3367 32.6481C19.6175 34.3444 21.907 34.6176 23.5221 34.5325Z" fill="url(#logo3_paint1_linear_13440_1868)"/>
+    <path d="M15.3691 14.0163L12.8561 7.69423C12.7291 7.3628 12.4387 7.15649 12.1015 7.15649H4.58178C4.1854 7.15649 3.89313 7.57007 4.03831 7.96358L9.34599 21.0728C10.6134 17.9247 12.8762 15.5722 15.3691 14.0163Z" fill="url(#logo3_paint2_linear_13440_1868)"/>
+    <path d="M37.5653 20.9523C34.9129 22.6133 32.9129 22.3086 30.7734 22.9199C29.2022 23.3688 28.4276 24.1997 27.9194 25.2055C29.7609 25.0632 31.206 25.6449 32.1125 26.5666C33.2223 27.6965 33.7629 29.2868 33.8776 30.8761L38.5405 20.2732C38.2234 20.5139 37.8977 20.7431 37.5663 20.9513L37.5653 20.9523Z" fill="url(#logo3_paint3_linear_13440_1868)"/>
+    <path d="M24.7953 40.1314C23.4772 40.3272 22.2241 40.3836 21.0416 40.3158L20.2316 42.1888C20.0932 42.5403 20.351 42.9748 20.7474 42.9748H28.0093C28.3465 42.9748 28.6445 42.7676 28.7829 42.4572L30.805 37.8601C29.1765 39.0846 27.0628 39.7943 24.7953 40.1314Z" fill="url(#logo3_paint4_linear_13440_1868)"/>
+    <path d="M43.4386 7.15649H35.9188C35.5817 7.15649 35.2837 7.36376 35.1452 7.69423L34.5864 8.98653C36.7097 9.18424 39.7298 10.424 41.4911 13.5645L43.9544 7.96358C44.1129 7.57007 43.835 7.15649 43.4386 7.15649Z" fill="url(#logo3_paint5_linear_13440_1868)"/>
+    <path d="M35.0475 15.3824C36.2443 15.3289 37.1755 14.3107 37.1211 13.1139C37.0676 11.9172 36.0494 10.9859 34.8526 11.0404C33.6549 11.0938 32.7246 12.112 32.7781 13.3088C32.8316 14.5056 33.8497 15.4368 35.0465 15.3833L35.0475 15.3824ZM35.9911 12.5867C36.3092 12.5724 36.5795 12.8198 36.5938 13.1378C36.6082 13.4559 36.3608 13.7262 36.0427 13.7405C35.7247 13.7548 35.4544 13.5075 35.44 13.1894C35.4257 12.8713 35.6731 12.601 35.9911 12.5867Z" fill="url(#logo3_paint6_linear_13440_1868)"/>
+    <path d="M24.1685 7.83954C26.4045 8.65044 27.8172 12.2169 28.5813 14.9152C29.5574 18.3641 31.5336 18.3412 33.5002 18.0404C35.0274 17.8063 38.0266 16.0776 39.5844 15.6774C41.2788 15.2428 41.8223 15.409 40.443 13.3268C38.2711 10.0488 35.5289 9.65811 34.675 9.61895C34.2576 9.59985 33.8488 9.49001 33.4782 9.29707C32.3292 8.6982 30.9777 7.48709 28.0664 6.91306C24.6327 6.23587 22.7836 7.33523 24.1685 7.83763V7.83954ZM34.6979 10.3009C36.3083 10.2293 37.6713 11.4757 37.7438 13.0851C37.8155 14.6955 36.569 16.0585 34.9596 16.131C33.3493 16.2027 31.9863 14.9562 31.9137 13.3468C31.8421 11.7365 33.0885 10.3735 34.6979 10.3009Z" fill="url(#logo3_paint7_linear_13440_1868)"/>
+    <path d="M27.3476 20.1312C27.659 19.5581 27.1833 18.6574 26.3027 18.6965C25.6236 18.7271 24.9426 19.0719 24.2195 19.9239C23.209 21.114 23.0476 22.1933 23.4936 22.9641C23.9167 23.6948 24.8423 23.9746 26.3562 23.6499C27.3906 23.4283 27.6886 22.9431 28.6246 22.4722C28.6714 22.4483 28.6685 22.3795 28.6198 22.3595C28.5186 22.3175 28.3247 22.2888 27.977 22.3939C27.3036 22.5983 25.6398 22.9469 25.7344 22.1131C25.8022 21.519 26.7191 21.2897 27.3476 20.1312Z" fill="url(#logo3_paint8_linear_13440_1868)"/>
+    <path d="M40.4375 16.2028C37.935 16.5448 35.7296 19.3796 32.3045 19.3844C30.613 19.3873 28.2433 18.3118 27.3798 15.7969C26.3426 12.7739 26.2948 12.1368 25.2518 12.0022C24.6864 11.9296 23.0464 11.8904 21.3482 12.2667C18.6843 12.858 16.4283 14.2372 15.5563 14.8943C8.7643 20.0148 7.44049 29.5613 12.6517 35.5452C15.4607 38.7707 19.6796 39.7698 23.0464 39.5778C29.7304 39.1957 32.4583 34.7429 32.6283 31.6483C32.8327 27.9347 29.9682 25.2212 26.8497 26.5183C26.098 26.8306 25.4906 27.4457 25.268 28.4228C25.014 29.5346 25.4142 31.2433 27.5527 31.2911C27.7466 31.2853 27.8307 31.2013 27.8383 31.0771C27.845 30.9663 27.7657 30.8966 27.6263 30.8317C27.5269 30.7849 26.5661 30.2872 26.8679 29.2337C27.1382 28.2929 28.4725 28.0197 29.2242 28.8096C29.9826 29.6053 30.2748 31.0236 29.5117 32.6044C28.7027 34.2797 25.7552 36.359 20.9556 35.4039C19.3023 35.0744 16.3175 33.4793 16.0539 29.8803C15.8648 27.3024 17.1475 25.4934 18.159 24.586C19.4198 23.4533 20.9556 22.65 22.523 22.1734C22.4953 21.2985 22.7723 20.4398 23.5612 19.5105C24.3845 18.541 25.2499 18.0491 26.2069 18.0061C26.907 17.9746 27.5097 18.2478 27.8698 18.84C28.2022 19.3853 28.1315 20.0539 27.8469 20.5783C27.6501 20.9403 27.4324 21.2259 27.2194 21.4589C29.164 21.4771 30.8728 21.8926 32.2787 21.7197C36.2053 21.2364 38.3381 19.4465 39.3295 18.3719C39.6151 18.0625 39.9217 17.774 40.2474 17.5056C40.6333 17.1876 40.9465 16.9039 41.1548 16.69C41.5349 16.2984 41.0927 16.1121 40.4375 16.2019V16.2028ZM13.3585 32.2051C10.027 27.185 10.6918 21.095 14.1742 16.7902C15.6393 15.2038 17.223 14.2219 18.4331 13.6383C15.6174 15.6154 12.4607 19.8696 12.4167 24.6214C12.389 27.6625 12.795 30.1258 13.5619 32.0991C13.7807 32.6617 13.6918 32.7075 13.3585 32.2051ZM26.1678 17.0606C21.4064 16.0643 17.264 18.9546 15.2019 23.5163C15.0691 23.8095 14.945 24.1658 14.8389 24.5669C14.7005 25.0904 14.5304 25.1448 14.5839 24.524C14.858 21.3224 17.1485 18.2468 19.3806 17.1876C22.4552 15.7272 24.6673 16.0281 26.2022 16.7807C26.7227 17.0367 26.6855 17.1685 26.1687 17.0606H26.1678Z" fill="url(#logo3_paint9_linear_13440_1868)"/>
+  </g>
+
+  <defs>
+    <linearGradient id="logo3_paint0_linear_13440_1868" x1="21.6922" y1="7.00654" x2="21.6922" y2="42.4658" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint1_linear_13440_1868" x1="20.354" y1="6.69998" x2="20.354" y2="42.4659" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint2_linear_13440_1868" x1="9.6841" y1="7.00654" x2="9.6841" y2="42.4658" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint3_linear_13440_1868" x1="33.229" y1="7.0064" x2="33.229" y2="42.4657" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint4_linear_13440_1868" x1="25.5002" y1="7.00645" x2="25.5002" y2="42.4658" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint5_linear_13440_1868" x1="39.2933" y1="7.00654" x2="39.2933" y2="42.4658" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint6_linear_13440_1868" x1="34.95" y1="7.00683" x2="34.95" y2="42.4661" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint7_linear_13440_1868" x1="32.4648" y1="7.00666" x2="32.4648" y2="42.466" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint8_linear_13440_1868" x1="25.9588" y1="7.00668" x2="25.9588" y2="42.466" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <linearGradient id="logo3_paint9_linear_13440_1868" x1="25.3798" y1="7.00683" x2="25.3798" y2="42.4661" gradientUnits="userSpaceOnUse"><stop stop-color="#5693FC"/><stop offset="0.34" stop-color="#4D83FF"/><stop offset="1" stop-color="#364ECF"/></linearGradient>
+    <clipPath id="logo3_clip0_13440_1868">
+      <rect width="40" height="36.274" fill="white" transform="translate(4 6.69995)"/>
+    </clipPath>
+  </defs>
+</svg>
+<text x="963.75" y="410.08" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="640" fill="#7A8599">48.4</text>
+</g>
+<g id="bar_4_granite">
+<path d="M 1144.25 623.10 Q 1144.25 606.10 1161.25 606.10 H 1231.25 Q 1248.25 606.10 1248.25 623.10 V 820.00 H 1144.25 Z" fill="url(#barGrad5)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 1144.25 623.10 Q 1144.25 606.10 1161.25 606.10 H 1231.25 Q 1248.25 606.10 1248.25 623.10 V 820.00 H 1144.25 Z" fill="url(#barGloss5)" opacity="0.78" mask="url(#barFadeMask)"/>
+<rect x="1163.25" y="486.10" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="1172.25" y="495.10" width="48.00" height="48.00" preserveAspectRatio="xMidYMid meet"
+   version="1.1"
+   id="logo4_svg1"
+   viewBox="0 0 750 750"
+   sodipodi:docname="IBM granite 2 cubes logo.svg"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="logo4_defs1">
+    <linearGradient
+       id="logo4_linearGradient2"
+       inkscape:collect="always">
+      <stop
+         style="stop-color:#006116;stop-opacity:1;"
+         offset="0"
+         id="logo4_stop2" />
+      <stop
+         style="stop-color:#00ab23;stop-opacity:1;"
+         offset="1"
+         id="logo4_stop3" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#logo4_linearGradient2"
+       id="logo4_linearGradient3"
+       x1="490.78799"
+       y1="32.702923"
+       x2="491.20642"
+       y2="463.43018"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99850638,0,0,0.98800358,0,9.1191318)" />
+  </defs>
+  <sodipodi:namedview
+     id="logo4_namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.34755479"
+     inkscape:cx="494.886"
+     inkscape:cy="217.23194"
+     inkscape:window-width="1366"
+     inkscape:window-height="682"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g1" />
+  <g
+     inkscape:groupmode="layer"
+     inkscape:label="Image"
+     id="logo4_g1">
+    <g
+       id="logo4_g7"
+       transform="translate(-396.72488,-43.888303)"
+       inkscape:label="g7">
+      <rect
+         style="fill:url(#logo4_linearGradient3);stroke:none;stroke-width:19.3473;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect1"
+         width="344.86151"
+         height="441.62872"
+         x="478.99133"
+         y="30.126156"
+         transform="matrix(0.93672659,0.35006185,0,1,0,0)" />
+      <rect
+         style="fill:#00e464;fill-opacity:1;stroke-width:43.8058;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect2-1"
+         width="344.802"
+         height="344.802"
+         x="-675.23218"
+         y="1154.1407"
+         transform="matrix(0.93688829,-0.34962886,0.93688829,0.34962886,0,0)" />
+      <rect
+         style="opacity:0.523651;fill:#6ee099;fill-opacity:1;stroke-width:19.3473;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect1-3"
+         width="344.86151"
+         height="441.62872"
+         x="-1168.7145"
+         y="606.92505"
+         transform="matrix(-0.93672659,0.35006185,0,1,0,0)" />
+      <rect
+         style="fill:#6ee099;fill-opacity:1;stroke-width:43.8058;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect2"
+         width="344.802"
+         height="344.802"
+         x="-43.953358"
+         y="522.862"
+         transform="matrix(0.93688829,-0.34962886,0.93688829,0.34962886,0,0)" />
+      <rect
+         style="opacity:0.65;fill:#0c9fa6;fill-opacity:1;stroke:none;stroke-width:13.1517;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect1-0"
+         width="234.42734"
+         height="300.20703"
+         x="654.20148"
+         y="-15.097324"
+         transform="matrix(0.93672659,0.35006185,0,1,0,0)" />
+      <rect
+         style="opacity:0.65;fill:#000fff;fill-opacity:1;stroke-width:29.778;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect2-1-6"
+         width="234.3869"
+         height="234.3869"
+         x="-408.35889"
+         y="1062.4473"
+         transform="matrix(0.93688829,-0.34962886,0.93688829,0.34962886,0,0)" />
+      <rect
+         style="opacity:0.340373;fill:#0c9fa6;fill-opacity:1;stroke-width:13.1517;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect1-3-2"
+         width="234.42734"
+         height="300.20703"
+         x="-1123.0564"
+         y="607.0528"
+         transform="matrix(-0.93672659,0.35006185,0,1,0,0)" />
+      <rect
+         style="display:inline;opacity:0.65;fill:#f7fdf9;fill-opacity:1;stroke-width:29.778;stroke-linecap:square;paint-order:stroke fill markers"
+         id="logo4_rect2-6"
+         width="234.3869"
+         height="234.3869"
+         x="20.767092"
+         y="633.32159"
+         transform="matrix(0.93688829,-0.34962886,0.93688829,0.34962886,0,0)" />
+    </g>
+  </g>
+</svg>
+<text x="1196.25" y="588.10" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="640" fill="#7A8599">35.5</text>
+</g>
+<g id="bar_5_ministral">
+<path d="M 1376.75 678.30 Q 1376.75 661.30 1393.75 661.30 H 1463.75 Q 1480.75 661.30 1480.75 678.30 V 820.00 H 1376.75 Z" fill="url(#barGrad6)" filter="url(#barShadow)" mask="url(#barFadeMask)"/>
+<path d="M 1376.75 678.30 Q 1376.75 661.30 1393.75 661.30 H 1463.75 Q 1480.75 661.30 1480.75 678.30 V 820.00 H 1376.75 Z" fill="url(#barGloss6)" opacity="0.78" mask="url(#barFadeMask)"/>
+<line x1="1402.75" y1="764.80" x2="1454.75" y2="764.80" stroke="#FFFFFF" stroke-width="2.4" stroke-linecap="round" opacity="0.96" stroke-dasharray="8 7"/>
+<text x="1428.75" y="782.80" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-style="italic" font-weight="520" fill="#FFFFFF" opacity="0.94">27586</text>
+<rect x="1395.75" y="541.30" width="66" height="66" rx="18" fill="#FFFFFF" opacity="0.96" filter="url(#logoShadow)"/>
+<svg x="1403.75" y="553.30" width="50.00" height="42.00" preserveAspectRatio="xMidYMid meet" viewBox="0 0 191 135" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#logo5_clip0_134_208)">
+<path d="M54.3221 0H27.1531V27.0892H54.3221V0Z" fill="#FFD800"/>
+<path d="M162.984 0H135.815V27.0892H162.984V0Z" fill="#FFD800"/>
+<path d="M81.4823 27.0913H27.1531V54.1805H81.4823V27.0913Z" fill="#FFAF00"/>
+<path d="M162.99 27.0913H108.661V54.1805H162.99V27.0913Z" fill="#FFAF00"/>
+<path d="M162.972 54.168H27.1531V81.2572H162.972V54.168Z" fill="#FF8205"/>
+<path d="M54.3221 81.2593H27.1531V108.349H54.3221V81.2593Z" fill="#FA500F"/>
+<path d="M108.661 81.2593H81.4917V108.349H108.661V81.2593Z" fill="#FA500F"/>
+<path d="M162.984 81.2593H135.815V108.349H162.984V81.2593Z" fill="#FA500F"/>
+<path d="M81.4879 108.339H-0.00146484V135.429H81.4879V108.339Z" fill="#E10500"/>
+<path d="M190.159 108.339H108.661V135.429H190.159V108.339Z" fill="#E10500"/>
+</g>
+<defs>
+<clipPath id="logo5_clip0_134_208">
+<rect width="190.141" height="135" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+<text x="1428.75" y="643.30" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="28" font-weight="640" fill="#7A8599">31.5</text>
+</g>
+<text x="266.25" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="33" font-weight="850" fill="#6B7280">
+<tspan x="266.25" dy="0">NuExtract3</tspan>
+<tspan x="266.25" dy="38">(4B)</tspan>
+</text>
+<text x="498.75" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="540" fill="#7A8599">
+<tspan x="498.75" dy="0">Gemma 4</tspan>
+<tspan x="498.75" dy="34">4B</tspan>
+</text>
+<text x="731.25" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="540" fill="#7A8599">
+<tspan x="731.25" dy="0">Qwen3.5</tspan>
+<tspan x="731.25" dy="34">4B</tspan>
+</text>
+<text x="963.75" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="540" fill="#7A8599">
+<tspan x="963.75" dy="0">GLM 4.6V</tspan>
+<tspan x="963.75" dy="34">Flash (9B)</tspan>
+</text>
+<text x="1196.25" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="540" fill="#7A8599">
+<tspan x="1196.25" dy="0">Granite-Vision</tspan>
+<tspan x="1196.25" dy="34">4.1-4B</tspan>
+</text>
+<text x="1428.75" y="875" text-anchor="middle" font-family="Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="29" font-weight="540" fill="#7A8599">
+<tspan x="1428.75" dy="0">Ministral 3</tspan>
+<tspan x="1428.75" dy="34">3B (3.8B)</tspan>
+</text>
+</svg>
