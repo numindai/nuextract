@@ -70,7 +70,7 @@ We selected 100 documents with challenging layouts and tables, asked each model 
 The rankings aligned with human votes, suggesting this is a promising method for evaluating document-to-Markdown capabilities. More details will be shared in an upcoming technical report.
 Here are some results:
 
-<img src="assets/ocr_benchmark_specialized.png" width="1200"/>
+<img src="assets/ocr_preferences.svg" width="1000"/>
 
 ### Using "Markdown-to-structured"
 
