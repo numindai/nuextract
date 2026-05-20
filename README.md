@@ -117,7 +117,7 @@ Structured extraction takes as inputs:
 
 1. An input document, which can be text, image, or both;
 2. A JSON template describing the information to extract;
-3. (Optional) Instructions, allowing to specify expected output formats or values;
+3. (Optional) Instructions, allowing to specify expected output formats or values, to provide with the `instructions` chat template kwarg;
 4. (Optional) In-Context Learning (ICL) examples.
 
 ### Input JSON template
@@ -359,7 +359,8 @@ response = client.chat.completions.create(
     ],
     extra_body={
         "chat_template_kwargs": {
-            "template": json.dumps(template, indent=4),
+            "template": json.dumps(template),
+            "instructions": "Specify the time for the `date` entry only if it is present, otherwise only output the date component.",
             "enable_thinking": False
         }
     }
