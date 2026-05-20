@@ -150,7 +150,7 @@ Supported template types include:
 - `number`: integer or decimal number;
 - `date-time`: ISO-8601 date, time or date-time;
 - Other specific types such as `data`, `time`, `country`, `currency`, `email` and so on.
-[**For more details, read the complete types specifications and examples**](TYPES.md)
+[**For more details, read the complete types specifications and examples**](assets/TYPES.md)
 
 Template constructors:
 
