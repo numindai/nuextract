@@ -179,7 +179,7 @@ class HotelBooking(BaseModel):
     room_type: Literal["single", "double", "suite"]
 
 
-template, dropped_branches = convert_json_schema_to_nuextract_template(
+template, dropped_branches, descriptions = convert_json_schema_to_nuextract_template(
     HotelBooking.model_json_schema()
 )
 
